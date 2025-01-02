@@ -24,9 +24,10 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Contact Info</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>123 Event Street</li>
+              <li>Apple Wood Adams</li>
+              <li>Ngong Road</li>
               <li>Nairobi, Kenya</li>
-              <li>Phone: +254 123 456 789</li>
+              <li>Phone: +254 700 444 441</li>
               <li>Email: info@aifec.africa</li>
             </ul>
           </div>
