@@ -15,7 +15,7 @@ const delegatePackages = [
   {
     name: "Standard",
     price: 500,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/reg.jpg?height=200&width=300",
     features: [
       "Access to all conference sessions",
       "Conference materials",
@@ -26,7 +26,7 @@ const delegatePackages = [
   {
     name: "Premium",
     price: 750,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/pre.jpg?height=200&width=300",
     features: [
       "All Standard features",
       "VIP seating",
@@ -38,7 +38,7 @@ const delegatePackages = [
   {
     name: "VIP",
     price: 1000,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/vip.jpg?height=200&width=300",
     features: [
       "All Premium features",
       "One-on-one meetings with speakers",
@@ -53,7 +53,7 @@ const exhibitorPackages = [
   {
     name: "Small Booth",
     price: 2000,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/smallb.jpg?height=200&width=300",
     features: [
       "3x3m exhibition space",
       "Basic booth setup",
@@ -64,7 +64,7 @@ const exhibitorPackages = [
   {
     name: "Medium Booth",
     price: 3500,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/mediumb.jpg?height=200&width=300",
     features: [
       "4x4m exhibition space",
       "Premium booth setup",
@@ -76,7 +76,7 @@ const exhibitorPackages = [
   {
     name: "Large Booth",
     price: 5000,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/largeb.jpg?height=200&width=300",
     features: [
       "5x5m exhibition space",
       "Luxury booth setup",
@@ -187,7 +187,7 @@ export default function RegisterPage() {
                   >
                     <div className="relative h-48">
                       <Image
-                        src="/placeholder.svg?height=200&width=400"
+                        src="/guest.jpg?height=200&width=400"
                         alt="Delegate"
                         fill
                         className="object-cover rounded-t-lg"
@@ -208,7 +208,7 @@ export default function RegisterPage() {
                   >
                     <div className="relative h-48">
                       <Image
-                        src="/placeholder.svg?height=200&width=400"
+                        src="/expo.jpg?height=200&width=400"
                         alt="Exhibitor"
                         fill
                         className="object-cover rounded-t-lg"

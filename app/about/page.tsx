@@ -76,7 +76,7 @@ export default function AboutPage() {
           </div>
           <div className="md:w-1/2 relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
             <Image
-              src="/placeholder.svg?height=800&width=600"
+              src="/about.jpg?height=800&width=600"
               alt="AIFEC Africa Mission"
               fill
               className="object-cover"

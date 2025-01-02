@@ -7,7 +7,7 @@ export function Footer() {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">AIFEC Africa</h3>
+            <h3 className="text-xl font-bold mb-4">AIFEC</h3>
             <p className="text-gray-400">
               Your premier partner for world-class events and exhibitions across Africa
             </p>
@@ -24,7 +24,7 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Contact Info</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Apple Wood Adams</li>
+              <li>Applewood Adams</li>
               <li>Ngong Road</li>
               <li>Nairobi, Kenya</li>
               <li>Phone: +254 700 444 441</li>
@@ -50,7 +50,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} AIFEC Africa. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} AIFEC. All rights reserved.</p>
         </div>
       </div>
     </footer>

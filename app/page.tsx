@@ -20,7 +20,7 @@ export default function Home() {
       >
         <div className="absolute inset-0 bg-black/60 z-10" />
         <Image
-          src="/home.jpg?height=1080&width=1920"
+          src="/aifechome.jpg?height=1080&width=1920"
           alt="Event backdrop"
           fill
           className="object-cover"
@@ -41,7 +41,7 @@ export default function Home() {
             transition={{ delay: 0.7, duration: 0.5 }}
             className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto"
           >
-            Uniting leaders to address infrastructure challenges across Africa
+            "Unlocking USD 6 billion in sustainable infrastructure development"
           </motion.p>
           <motion.div
             initial={{ scale: 0.5, opacity: 0 }}
@@ -152,7 +152,7 @@ export default function Home() {
             </div>
             <div className="relative h-[300px] md:h-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/aifec.png?height=400&width=600"
                 alt="Conference hall"
                 fill
                 className="object-cover rounded-lg"

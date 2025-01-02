@@ -14,7 +14,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-20 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
-          <Image src="/logo.svg" alt="AIFEC Africa Logo" width={150} height={50} />
+          <Image src="/aifec.png" alt="AIFEC Africa Logo" width={150} height={50} />
         </Link>
 
         <div className="hidden md:flex md:items-center md:space-x-8">

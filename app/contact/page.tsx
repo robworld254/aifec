@@ -112,7 +112,7 @@ export default function ContactPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-foreground">+254 (0) 123 456 789</p>
+                <p className="text-foreground">+254 700 444 441</p>
               </CardContent>
             </Card>
 
@@ -136,7 +136,7 @@ export default function ContactPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-foreground">123 Conference Street, Nairobi, Kenya</p>
+                <p className="text-foreground">Applewood Adams, Ngong Road, Nairobi, Kenya</p>
               </CardContent>
             </Card>
           </motion.div>
@@ -149,15 +149,15 @@ export default function ContactPage() {
           <h2 className="text-3xl font-bold text-center mb-8">Our Location</h2>
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <Image
-              src="/placeholder.svg?height=800&width=1200"
+              src="/adams.jpg?height=800&width=1200"
               alt="AIFEC Africa Location"
               fill
               className="object-cover"
             />
             <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
               <div className="text-white text-center">
-                <h3 className="text-2xl font-bold mb-2">AIFEC Africa Headquarters</h3>
-                <p>123 Conference Street, Nairobi, Kenya</p>
+                <h3 className="text-2xl font-bold mb-2">AIFEC Headquarters</h3>
+                <p>Applewood Adams, Nairobi, Kenya</p>
               </div>
             </div>
           </div>
@@ -170,7 +170,7 @@ export default function ContactPage() {
           <h2 className="text-3xl font-bold text-center mb-8">Find Us</h2>
           <div className="aspect-w-16 aspect-h-9">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.819917806043!2d36.81679511475396!3d-1.2833337359570715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d22f28f0c1%3A0x3180c2550e39a19f!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2s!4v1623234536314!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2312.084832717168!2d36.779609144741144!3d-1.2994031849425387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1b1146384663%3A0xd90e0e9abcb51977!2sApplewood%20Adams!5e0!3m2!1sen!2ske!4v1735834896752!5m2!1sen!2ske"
               width="100%"
               height="450"
               style={{ border: 0 }}
