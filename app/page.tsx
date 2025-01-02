@@ -41,7 +41,7 @@ export default function Home() {
             transition={{ delay: 0.7, duration: 0.5 }}
             className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto"
           >
-            "Unlocking USD 6 billion in sustainable infrastructure development"
+            Unlocking USD 6 Billion in sustainable infrastructure development
           </motion.p>
           <motion.div
             initial={{ scale: 0.5, opacity: 0 }}
@@ -63,7 +63,7 @@ export default function Home() {
             <div className="flex justify-center space-x-8">
               <div className="flex items-center">
                 <Calendar className="w-6 h-6 mr-2 text-red-600" />
-                <span className="text-foreground">December 3-4, 2025</span>
+                <span className="text-foreground">July 2-4, 2025</span>
               </div>
               <div className="flex items-center">
                 <Clock className="w-6 h-6 mr-2 text-red-600" />
@@ -94,7 +94,7 @@ export default function Home() {
               <CardContent className="p-6 text-center text-white">
                 <Calendar className="w-12 h-12 mx-auto mb-4 text-white" />
                 <h3 className="text-4xl font-bold mb-2">2024</h3>
-                <p className="text-sm">December 3-4</p>
+                <p className="text-sm">July 2-4</p>
               </CardContent>
             </Card>
             <Card className="bg-red-600 border-none">
